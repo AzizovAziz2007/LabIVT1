@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FirstLabIVT1
+namespace LabIVT1
 {
-    class Lab1
+    internal class Lab1
     {
         public void task1()
         {
@@ -215,14 +215,14 @@ namespace FirstLabIVT1
             Console.WriteLine("+");
         }
 
-        enum Post
+        private enum Post
         {
             П = 0,
             С = 1,
             А = 2,
         }
 
-        struct Personnel
+        private struct Personnel
         {
             public string surname { get; set; }
             public Post post { get; set; }
