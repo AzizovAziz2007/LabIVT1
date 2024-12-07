@@ -53,7 +53,15 @@ internal class Program
                 Console.WriteLine($"Задание {n}");
                 InvokeMethodByName(lab3, "task" + n);
                 break;
+            case 4:
+                Lab4 lab4 = new Lab4();
 
+                Console.WriteLine("Введите номер задания");
+                n = int.Parse(Console.ReadLine());
+
+                Console.WriteLine($"Задание {n}");
+                InvokeMethodByName(lab4, "task" + n);
+                break;
         }   
     }
 }
